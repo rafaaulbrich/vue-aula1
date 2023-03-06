@@ -7,7 +7,7 @@ function incrementarContador() {
   contador.value++
 }
 function decrementarContador() {
-    if (contador.value) {
+    if (contador.value > 0) {
       contador.value--}
     else {
       alert(`Não é possível decrementar!`)
